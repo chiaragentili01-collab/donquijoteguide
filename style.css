@@ -1,0 +1,221 @@
+body {
+    font-family: 'Times new roman', serif;
+    line-height: 1.8;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0;
+    margin-left: 20%;  
+    margin:0;
+    background-color: #fff5e3;
+    color: #2e2e2e;
+}
+
+.spiegazione {
+     margin-left: 50px;
+     padding: 20px;
+     font-size: 20px;
+     line-height:1.6;
+}
+
+.spiegazione h2 {
+    text-align: left;
+    margin-left: 50px;   
+}
+
+h1, h2, h3, .riga, p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    font-size: 36px;
+    color: #45210c;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #45210c;
+}
+
+h2 {
+    font-size: 28px;
+    color: #331707;
+    margin-top: 30px;
+    text-align: center; 
+}
+
+.riga {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px; 
+}
+
+.colonna {
+    flex: 1;
+    text-align: justify;
+}
+
+.personaggio {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.personaggio h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.foto-sinistra, .foto-destra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 80%;
+    margin-left: 220px;
+}
+
+.foto-sinistra img, .foto-destra img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.foto-destra {
+    flex-direction: row-reverse;
+}
+
+.testo-personaggio {
+    flex: 1;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+.header-img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding-top: 0;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+.home-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin:0;
+    padding:0;
+    background-image: url('sfondo_home.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home-box{
+    border: 2px solid #fff5e3;
+    text-align: center;
+    width: 600px;
+    padding: 40px;
+    height: auto;
+    max-height: 800px;
+    border-radius: 20px;
+    background-color: rgba(62, 39, 35, 0.75);
+    
+}
+
+.home-box h1, .home-box h2 {
+    color: #faf7f5;
+    border-bottom: none
+}
+
+.link-home a{
+    display: block;
+    color: #fff8eb; 
+    padding: 5%;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.link-home a:hover{
+    text-decoration: underline;
+}
+
+.author {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap: 40px;                  
+    margin-top: 30px;
+  
+}
+
+.author img {
+    width: 450px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    border-right: 20px;
+    
+}
+
+.testo-autore {
+    flex:1;
+    text-align: justify;
+    
+}
+
+.contenuto {
+    margin-left: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;           
+    position: fixed;        
+    z-index: 1000;          
+    top: 0;
+    left: 0;               
+    background-color: #331707; 
+    padding-top: 60px;     
+    text-align: center;
+     
+}
+
+.sidebar a {
+    padding: 15px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff5e3;         
+    display: block;         
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #4e342e;
+    color: #ffffff;
+}
+
+.sup a {
+    text-decoration: none;
+    color: #4e342e;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 0 2px;
+}
+
+
+.note {
+    font-size: smaller;
+    color: #5d4037;
+    border-top: 1px solid #5d4037;
+    margin-top: 50px;
+    margin-left:100px; 
+    padding-top: 20px;
+}
